@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**boot**/
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(31, 219, 150);
+}
+
+.clear{
+    clear: both;
+}
+/**styles**/
+
+.adicionar-box{
+    box-shadow: 2px 2px 2px 2px darkgray;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 2%;
+    max-width: 500px;
+    width: 95%;
+
+}
+
+.adicionar-box .label-categoria{
+    font-family: Monaco, monospace;
+	font-weight: bold;
+	font-size: 16px;
+    color: black;
+}
+
+.adicionar-box .label-titulo{
+    font-family: Monaco, monospace;
+	font-weight: bold;
+	font-size: 16px;
+    color: black;
+}
+
+.adicionar-box .label-conteudo{
+    font-family: Monaco, monospace;
+	font-weight: bold;
+	font-size: 16px;
+    color: black;
+}
+
+.adicionar-box .label-imagem{
+    font-family: Monaco, monospace;
+	font-weight: bold;
+	font-size: 16px;
+    color: black;
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}    .select select {
+        font-family: Monaco, monospace;
+        font-weight: bold;
+        font-size: 16px;
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 3px 14px;
+        outline: 0;
+        border: 0px solid #000000;
+        border-radius: 3px;
+        background: #10bb14;
+        color: #ffffff;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: white;
+            background: #18ff1d;
+        }
+        .select select:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 11px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #ffffff transparent transparent transparent;
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-top-color: #000000;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #ffffff;
+}
+
+.adicionar-box input[type="text"]{
+	width: 100%;
+	height: 45px;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+	margin-top: 8px;
+}
+
+.adicionar-box textarea{
+	width: 100%;
+	height: 225px;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+    margin-top: 8px;
+    resize: vertical;
+}
+
+.adicionar-box input[type="submit"]{
+	width: 90px;
+	height: 30px;
+    cursor: pointer;
+	padding-left: 8px;
+	margin-top: 8px;
+	background: #1fdb96;
+	color: #ffffff;
+	border: 0;
+	font-family: Monaco, monospace;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.adicionar-box .btn-voltar{
+	width: 90px;
+	height: 30px;
+    cursor: pointer;
+	padding-left: 8px;
+	margin-top: 8px;
+	background: #1fdb96;
+	color: #ffffff;
+	border: 0;
+	font-family: Monaco, monospace;
+	font-weight: bold;
+    font-size: 16px;
+    right: 0;
+    
+}
+
+.adicionar-box input[type="file"]{
+	cursor: pointer;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 8px;
+	background: #1fdb96;
+	color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #077c53;
+	font-family: Monaco, monospace;
+	font-weight: bold;
+	font-size: 16px;
+}

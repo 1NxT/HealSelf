@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**boot**/
+a{
+    text-decoration: none;
+}
+
+.texto-topo h1{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	font-family: Georgia, serif;
+	text-shadow: 2px 2px #14191e;
+	background-image: url("../imagens/alimentacao.png");
+	background-size: 100%;
+	color: #fff;
+	border-color: #fff; 
+	border-top-style: solid;
+}
+
+.topo input[type="submit"]{
+	width: 90px;
+	height: 30px;
+	cursor: pointer;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	border: 0;
+	background-color: #748192;
+	color: #fff;
+	font-family: Monaco, monospace;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+}
+
+.table_1{
+	margin-top: 25px;
+	margin-left: 400px;
+}
+
+.table_2{
+	margin-top: 10px;
+	margin-left: 400px;
+}
+
+td{
+	width: 200px;
+	height: 100px;
+	padding: 25px;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px #b1b3b4;
+}
