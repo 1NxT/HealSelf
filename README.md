@@ -1,2 +1,2 @@
 # HealSelf
-Projeto de aprendizado do colégio
+Projeto de aprendizado do colégio.
